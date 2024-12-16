@@ -4,10 +4,10 @@ import Link from 'next/link';
 interface NavData {
   logo: string;
   list: { text: string; href: string }[]; // Array of objects with text and href for links
-  button: string;
+
 }
 
-const Navbar = ({ logo, list = [], button }: NavData) => {
+const Navbar = ({ logo, list = [] }: NavData) => {
   return (
     <div>
       <header className="bg-black grid grid-cols-[1fr,auto,1fr] items-center text-white px-8 py-4 gap-8">
