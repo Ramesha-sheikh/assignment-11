@@ -19,7 +19,7 @@ const Page = () => {
       <Navbar 
       logo={navData.logo} 
       list={navData.list} 
-      button={navData.button} />
+       />
     </div>
   );
 };
